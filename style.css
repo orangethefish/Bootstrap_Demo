@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Vogue Avant Garde";
+    src: url("./VogueAvantGarde-Medium.woff") format("woff"), url("./VogueAvantGarde-DemiBold.woff") format("woff"),url("./VogueAvantGarde-Bold.woff") format("woff");
+}
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: white;
+}
+.text-muted{
+    text-decoration: none;
+}
+.container header{
+    background-color:white;
+}
+header a{
+    text-decoration: none;
+    font-family: 'Vogue Avant Garde';
+    font-weight: bold !important;
+}
+#sticky {
+    background-color:white;
+}
+#menu a{
+    text-decoration: none;
+    font-family: 'Vogue Avant Garde';
+    font-weight: bold !important;
+
+}
+h3{
+    font-family: 'Antic Didone', serif;
+    font-weight: 600;
+}
+.card{
+    margin-right:30px;
+    font-family: 'Vogue Avant Garde',serif;
+    font-weight: 450;
+}
+.italic{
+    font-style: italic;
+}
+.card-subheading{
+    font-size: 1.1rem;
+}
+.card-title{
+    height: 72px;
+    font-size:1.4rem;
+}
+.card a,footer a{
+    text-decoration: none;
+}
+.card a:hover,footer a:hover{
+    text-decoration:underline;
+}
+#ad{
+    margin:auto;
+    display:block;
+    width:50%;
+}
+#footerlogo{
+    font-size:2.6rem;
+}
+footer{
+    background-color: rgba(0,0, 0);
+    font-family: 'Vogue Avant Garde';
+    font-weight: 370;
+}
+.footerlogo:hover{
+    text-decoration: none;
+}
+footer #firstcol{
+    padding-left:60px;
+    padding-right: 300px;
+}
+footer small{
+    font-size: 1rem;
+    font-weight:450;
+}
+#footerul li{
+    margin-bottom:10px;
+    margin-top:30px;
+}
+footer h5{
+    font-weight: 450;
+    font-family: 'Roboto',serif;
+}
+#row1 #firstcol,#row1 #footerul{
+    padding-bottom:70px;
+}
+#row2{
+    padding-top:70px;
+}
+#row2 #firstcol{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #CBCBCB;
+}
+#row2 #firstcol a{
+    padding-left:10px;
+    padding-right:10px;
+    color: #CBCBCB;
+}
+#row2 #seccol{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #CBCBCB;
+}
+#row2 .dropdown{
+    padding-right:60px;
+}
+.dropdown .btn{
+    text-decoration: none;
+}
+.dropdown-menu::-webkit-scrollbar {
+    width: 10px;
+    
+}
+.dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding:4px;
+    width: 130px !important;
+}
+.dropdown-item{
+    text-decoration:underline;
+    width: 125px !important;
+    height: 48px !important;
+}
+.dropdown-item:hover{
+    text-decoration: none;
+}
+a .btn{
+    opacity: 0;
+}
+#row3{
+    padding:60px;
+}
+small{
+    font-family: 'Vogue Avant Garde';
+    font-size: 0.8rem;
+}
+small a{
+    text-decoration: underline !important;
+}

@@ -21,15 +21,76 @@
     <div class="container-fluid sticky-top px-0">
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-4 text-center">
+                <div class="col-4 text-left">
+                  <div class="hiddencanvas">
+                    <a class="btn btn-white " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                      aria-controls="offcanvasExample">
+                      <div class="menu-icon"></div>
+                      <div class="menu-icon"></div>
+                      <div class="menu-icon"></div>
+                    </a>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                      <div class="offcanvas-header">
+                        <!-- <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5> -->
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <div>
+                          <ul class="firstul border-bottom">
+                            <a href="" class="row p-2 my-3 text-dark ">FASHION</a>
+                            <a href="" class="row p-2 my-3 text-dark ">BEAUTY</a>
+                            <a href="" class="row p-2 my-3 text-dark ">CULTURE</a>
+                            <a href="" class="row p-2 my-3 text-dark ">LIVING</a>
+                            <a href="" class="row p-2 my-3 text-dark ">RUNWAY</a>
+                            <a href="" class="row p-2 my-3 text-dark ">SHOPPING</a>
+                            <a href="" class="row p-2 my-3 text-dark ">VIDEO</a>
+                            <a href="" class="row p-2 my-3 text-dark ">VOGUE CLUB</a>
+                            <a href="" class="row p-2 my-3 text-dark ">PHOTOVOGUE</a>
+                          </ul>
+                        </div>
+                        <div class="">
+                          <ul class="secul border-bottom">
+                            <a href="" class="row p-2 my-2 text-dark ">Seach</a>
+                            <a href="" class="row p-2 my-2 text-dark ">Sign In</a>
+                            <a href="" class="row p-2 my-2 text-dark ">Subscribe</a>
+                            <br>
+                            <a href="" class="row p-2 my-2 text-dark ">Vogue.com</a>
+                            <a href="" class="row p-2 my-2 text-dark ">Vogue Forces of Fashion</a>
+                            <a href="" class="row p-2 my-2 text-dark ">Vogue Archive</a>
+                            <a href="" class="row p-2 my-2 text-dark ">Vogue Podcast</a>
+                            <a href="" class="row p-2 my-2 text-dark ">Masterhead</a>
+                          </ul>
+                        </div>
+                        <div>
+                          <ul class="d-flex justify-content-center thirdul">
+                            <i class="fa fa-facebook-f px-3" style="font-size:2rem;color:black"></i>
+                            <i class="fa fa-twitter px-3" style="font-size:2rem;color:black"></i>
+                            <i class="fa fa-pinterest px-3" style="font-size:2rem;color:black"></i>
+                            <i class="fa fa-instagram px-3" style="font-size:2rem;color:black"></i>
+                            <i class="fa fa-youtube-play px-3" style="font-size:2rem;color:black"></i>
+                          </ul>
+                        </div>
+                        <!-- <div class="dropdown mt-3">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                            Dropdown button
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="col-4 text-center">
                   <img src="./Vogue_logo.svg" alt="logo" height="35px">
                     
                 </div>
                 <div class="col-4 d-flex justify-content-end align-items-center">
-                    <a href="#" class="text-dark px-3">SIGN IN</a>
-                    <a href="#" class="text-dark px-3">SUBSCRIBE</a>
+                    <a href="#" class="text-dark px-3 button">SIGN IN</a>
+                    <a href="#" class="text-dark px-3 button">SUBSCRIBE</a>
                     <a class="text-dark" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3">
@@ -65,10 +126,10 @@
       <div class="album py-5 bg-white">
         <div class="container-fluid ">
           <div class="row">
-            <div class="col-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-sm-12 d-flex justify-content-center">
               <div class="card mb-4 box-shadow" style="width:407px">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                  alt="Thumbnail [100%x225]" style="height: 308px; width: 405px; display: block;"
+                <img class="card-img-top img-fluid" 
+                  alt="Thumbnail [100%x225]" style="display: block;"
                   src="./VO1122_Cover_logo.jpg"
                   data-holder-rendered="true">
                 <div class="card-body">
@@ -86,10 +147,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-md-12 d-flex justify-content-center">
               <div class="card mb-4 box-shadow" style="width:407px">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                  alt="Thumbnail [100%x225]" style="height: 308px; width: 405px; display: block;" src="./vogue_a-night-in-with-november-c.jpeg"
+                <img class="card-img-top img-fluid" 
+                  alt="Thumbnail [100%x225]" style="display: block;" src="./vogue_a-night-in-with-november-c.jpeg"
                   data-holder-rendered="true">
                 <div class="card-body">
                   <p class="card-subheading">
@@ -97,16 +158,16 @@
                   </p>
                   <h5 class="card-title">
                     <a href="" class="text-dark">Spend a Night In With November Cover Star Michaela Coel and Her 'Day Ones'</a>
-                     </h5>
+                  </h5>
                   <br>
                   <h6 class="card-text">BY <a href=""class="text-dark">EMMA SPECTER</a></h6>
                 </div>
               </div>
             </div>
-            <div class="col-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-md-12 d-flex justify-content-center">
               <div class="card mb-4 box-shadow" style="width:407px">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                  alt="Thumbnail [100%x225]" style="height: 308px; width: 405px; display: block;" src="./MCDBLPA_EC094.jpg"
+                <img class="card-img-top img-fluid"  
+                  alt="Thumbnail [100%x225]" style="display: block;" src="./MCDBLPA_EC094.jpg"
                   data-holder-rendered="true">
                 <div class="card-body">
                   <p class="card-subheading">
@@ -120,10 +181,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-md-12 d-flex justify-content-center">
               <div class="card mb-4 box-shadow" style="width:407px">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                  alt="Thumbnail [100%x225]" style="height: 308px; width: 405px; display: block;" src="./GettyImages-919588964 (1).jpeg"
+                <img class="card-img-top img-fluid"  
+                  alt="Thumbnail [100%x225]" style="display: block;" src="./GettyImages-919588964 (1).jpeg"
                   data-holder-rendered="true">
                 <div class="card-body">
                   <p class="card-subheading">VIEWPOINT</p>
@@ -143,11 +204,11 @@
       <div class="album py-5 bg-white">
         <div class="container-fluid ">
           <div class="row">
-            <div class="col-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-md-12 d-flex justify-content-center">
               <div class="card mb-4 box-shadow" style="width:407px">
-                <img class="card-img-top"
-                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                  alt="Thumbnail [100%x225]" style="height: 308px; width: 405px; display: block;"
+                <img class="card-img-top img-fluid"
+                  
+                  alt="Thumbnail [100%x225]" style="display: block;"
                   src="./LG2110_GettyImages-1435221221.jpg" data-holder-rendered="true">
                 <div class="card-body">
                   <p class="card-subheading">
@@ -162,11 +223,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-md-12 d-flex justify-content-center">
               <div class="card mb-4 box-shadow" style="width:407px">
-                <img class="card-img-top"
-                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                  alt="Thumbnail [100%x225]" style="height: 308px; width: 405px; display: block;"
+                <img class="card-img-top img-fluid"
+                  
+                  alt="Thumbnail [100%x225]" style="display: block;"
                   src="./BGUS_2491232_002 (1).jpeg" data-holder-rendered="true">
                 <div class="card-body">
                   <p class="card-subheading">
@@ -180,11 +241,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-md-12 d-flex justify-content-center">
               <div class="card mb-4 box-shadow" style="width:407px">
-                <img class="card-img-top"
-                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                  alt="Thumbnail [100%x225]" style="height: 308px; width: 405px; display: block;" src="./BGUS_2489980_001-1.jpg"
+                <img class="card-img-top img-fluid"
+                 
+                  alt="Thumbnail [100%x225]" style="display: block;" src="./BGUS_2489980_001-1.jpg"
                   data-holder-rendered="true">
                 <div class="card-body">
                   <p class="card-subheading">
@@ -198,11 +259,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-md-12 d-flex justify-content-center">
               <div class="card mb-4 box-shadow" style="width:407px">
-                <img class="card-img-top"
-                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                  alt="Thumbnail [100%x225]" style="height: 308px; width: 405px; display: block;"
+                <img class="card-img-top img-fluid"
+                  
+                  alt="Thumbnail [100%x225]" style="display: block;"
                   src="./GettyImages-79895478 (1).jpeg" data-holder-rendered="true">
                 <div class="card-body">
                   <p class="card-subheading">
@@ -226,22 +287,22 @@
     </main>
     <footer class="pt-4 my-md-5 pt-md-5 container-fluid">
       <div class="row" id="row1">
-        <div class="col-6 border-bottom border-dark" id="firstcol">
+        <div class="col-lg-6 col-sm-12 border-bottom border-dark" id="firstcol">
           <a href="" class="blog-header-logo text-white" id="footerlogo"><img src="./logo-reverse.f2c4cf0289092a5686b7c6db87806b427e705af9.svg" alt="" width="130px"></a>
           <small class="d-block mb-5 text-white">The latest fashion news, beauty coverage, celebrity style, fashion week updates, culture reviews, and videos on
           Vogue.com.</small>
           <ul class="d-flex justify-content-around">
-            <i class="fa fa-facebook-f" style="font-size:36px;color:white"></i>
-            <i class="fa fa-twitter" style="font-size:36px;color:white"></i>
-            <i class="fa fa-pinterest" style="font-size:36px;color:white"></i>
-            <i class="fa fa-instagram" style="font-size:36px;color:white"></i>
-            <i class="fa fa-youtube-play" style="font-size:36px;color:white"></i>
+            <i class="fa fa-facebook-f px-3" style="font-size:36px;color:white"></i>
+            <i class="fa fa-twitter px-3" style="font-size:36px;color:white"></i>
+            <i class="fa fa-pinterest px-3" style="font-size:36px;color:white"></i>
+            <i class="fa fa-instagram px-3" style="font-size:36px;color:white"></i>
+            <i class="fa fa-youtube-play px-3" style="font-size:36px;color:white"></i>
             
           </ul>
         </div>
-        <div class="col-3 d-flex border-bottom border-dark">
+        <div class="col-lg-3 col-sm-6 col-xs-12 d-flex border-bottom border-dark">
           <div>
-          <h5 class="text-light">MORE FROM VOGUE</h5>
+          <h5 class="text-light ulheading">MORE FROM VOGUE</h5>
           <ul class="list-unstyled text-small" id="footerul">
             <li><a class="text-white" href="#">NEWSLETTER</a></li>
             <li><a class="text-white" href="#">CUSTOMER CARE</a></li>
@@ -252,9 +313,9 @@
           </ul>
           </div>
         </div>
-        <div class="col-3 d-flex border-bottom border-dark">
+        <div class="col-lg-3 col-sm-6 col-xs-12 d-flex border-bottom border-dark">
           <div>
-          <h5 class="text-light">SEE MORE STORIES</h5>
+          <h5 class="text-light ulheading">SEE MORE STORIES</h5>
           <ul class="list-unstyled text-small" id="footerul">
             <li><a class="text-white" href="#">FASHION</a></li>
             <li><a class="text-white" href="#">BEAUTY</a></li>
@@ -263,21 +324,20 @@
             <li><a class="text-white" href="#">RUNWAY</a></li>
             <li><a class="text-white" href="#">SHOPPING</a></li>
             <li><a class="text-white" href="#">MAGAZINE</a></li>
-
           </ul>
           </div>
         </div>
         
       </div>
-        <div class="row" id="row2">
-          <div class="col-8 my-auto" id="firstcol">
+        <div class="row " id="row2">
+          <div class="col-lg-8 col-md-12 my-auto" id="firstcol">
             <a href="" class="">ACCESSIBILITY HELP</a> |
             <a href="" class="">MASTHEAD</a> |
             <a href="" class="">VISUAL STORIES</a> |
             <a href="" class="">CONDÉ NAST SPOTLIGHT</a>
             <a href="" class="text-secondary border border-secondary text-decoration-none pt-1">COOKIES SETTINGS</a>
           </div>
-          <div class="col-4 d-flex justify-content-end">
+          <div class="col-lg-4 col-md-12 d-flex justify-content-end" id="dropdown">
             <p class="my-auto me-4" id="seccol">CN Fashion & Beauty</p>
             <div class="dropdown dropup show my-auto" id="seccol">
               <a class="btn text-white border border-dark dropdown-toggle" href="javascript:return false;" role="button" id="dropdownMenuLink"
@@ -327,6 +387,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
-    <script src="main.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>

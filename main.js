@@ -1,21 +1,10 @@
-var scrollpos = window.scrollY;
-var header = document.getElementById("header");
-var windowheight = window.innerHeight;
-var headerheight = document.getElementById("header").offsetHeight;
-
-function add_class_on_scroll() {
-  header.classList.add("fixed");
-}
-
-function remove_class_on_scroll() {
-  header.classList.remove("fixed");
-}
-
-window.addEventListener('scroll', function() {
-  scrollpos = window.scrollY;
-  if (scrollpos > (windowheight - headerheight)) {
-    add_class_on_scroll();
-  } else {
-    remove_class_on_scroll();
-  }
-});
+$(window).on('resize', function() {
+    if($(window).width() > 992) {
+        $('#dropdown').addClass('justify-content-end');
+        $('#dropdown').removeClass('justify-content-center');
+    }else{
+        $('#dropdown').addClass('justify-content-center');
+        $('#dropdown').removeClass('justify-content-end');
+    }
+})
+console.log('Hello World!');
